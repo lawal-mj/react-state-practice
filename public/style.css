@@ -1,4 +1,30 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.parent {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    width: 500px;
+}
+
+.child {
+    background-color: blue;
+}
+
+button {
+    margin-left: 150px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
 }
