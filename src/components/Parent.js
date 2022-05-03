@@ -6,7 +6,7 @@ export default function Parent() {
         const [ value, setValue ] = useState("lawal is awesome")
 
         function changeValue() {
-            setValue("Buhari is useless")
+            setValue("I dont like Wahala")
         }
 
 
