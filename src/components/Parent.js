@@ -13,9 +13,11 @@ export default function Parent() {
     return(
         <div className="parent">
             <h1>{value}</h1>
-            <button className="parent-button" onClick={changeValue}>Click me</button>
+            {/* <button className="parent-button" onClick={changeValue}>Click me</button> */}
             <div>
-                <Child />
+                <Child 
+                    handleClick= {changeValue}
+                />
             </div>
         </div>
     )
