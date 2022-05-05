@@ -10,3 +10,8 @@
     margin-right: 4px;
     border-radius: 5px;
 }
+
+textarea {
+    margin: 20px;
+    display: block;
+}
